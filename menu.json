@@ -1,0 +1,102 @@
+{
+    "pizza": [
+      {
+        "name": "Tortilla Pork Chedda",
+        "description": "szarpana wieprzowina, ser cheddar, grillowany boczek, prażona cebula, sałata lodowa, ogórek, sos serowy, zawinięte w chlebie arabskim",
+        "price": 26.99
+      },
+      {
+        "name": "Tortilla Pork BBQ",
+        "description": "szarpana wieprzowina, camembert, prażona cebulka, ogórek konserwowy, sałata lodowa, sos BBQ, zawinięte w chlebie arabskim",
+        "price": 24.99
+      },
+      {
+        "name": "Tortilla Serowa",
+        "description": "camembert, cheddar, mozzarella, suszone pomidory, ogórek, szczypior, sałata, sos czosnkowy, zawinięte w chlebie arabskim",
+        "price": 28.99
+      },
+      {
+        "name": "Tortilla Klasyczna",
+        "description": "gyros drobiowy, sałata lodowa, pomidor, ogórek konserwowy, cebula, sos czosnkowy, zawinięte w chlebie arabskim",
+        "price": 28.99
+      },
+      {
+        "name": "Tortilla Vegan Klasyczna",
+        "description": "grillowane tofu, pomidor, ogórek konserwowy, cebula, sałata lodowa, szczypior, wegański sos czosnkowy, zawinięte w chlebie arabskim",
+        "price": 29.99
+      },
+      {
+        "name": "Frytotortilla Kebab",
+        "description": "kebab wołowy, frytki, sos czosnkowy, zawinięte w chlebie arabskim",
+        "price": 31.99
+      },
+      {
+        "name": "Frytotortilla Gyros",
+        "description": "gyros drobiowy, frytki, sos czosnkowy, zawinięte w chlebie arabskim",
+        "price": 33.99
+      }
+    ],
+    "salad": [
+        {
+            "name": "Sałatka Grecka",
+            "description": "sałata lodowa, pomidor, ogórek zielony, cebula, ser feta, oliwki, sos vinegrette",
+            "price": 26.99
+        },
+        {
+            "name": "Sałatka Domowa",
+            "description": "sałata lodowa, rukola, pomidor, ogórek zielony, papryka, cebula, ser feta, sos czosnkowy",
+            "price": 27.99
+        },
+        {
+            "name": "Sałatka z Kurczakiem",
+            "description": "sałata lodowa, pomidor, ogórek zielony, kukurydza, cebula, kurczak, sos czosnkowy",
+            "price": 27.99
+        },
+        {
+            "name": "Sałatka Cezar",
+            "description": "sałata lodowa, kurczak, bekon, pomidor, cebula, ogórek zielony, papryka słodka, sos miodowo-musztardowy",
+            "price": 29.99
+        }
+    ],
+    "sauce": [
+        {
+            "name": "Sos czosnkowy",
+            "price": 3.99
+        },
+        {
+            "name": "Sos pomidorowo-ziołowy",
+            "price": 3.99
+        },
+        {
+            "name": "Sos Barbecue",
+            "price": 4.99
+        },
+        {
+            "name": "Sos tysiąca wysp",
+            "price": 4.99
+        }
+    ],
+    "drink": [
+        {
+            "name": "Pepsi 1l",
+            "price": 8.99
+        },
+        {
+            "name": "Mirinda Orange 1l",
+            "price": 8.99
+        },
+        {
+            "name": "7UP 1l",
+            "price": 8.99
+        },
+        {
+            "name": "Lemoniada 0,5l",
+            "price": 6.99
+        },
+        {
+            "name": "Napój Energetyczny 0,3l",
+            "price": 5.99
+        }
+    ]
+  }
+

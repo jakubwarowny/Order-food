@@ -1,0 +1,99 @@
+#menu {
+  margin-top: 1%;
+  padding: 0 2% 0 0%;
+  height: 97%;
+  width: 70%;
+  overflow: auto;
+}
+
+#menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb {
+  background-color: #9d9d9d;
+  border-radius: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb:hover {
+  background-color: #555557;
+}
+
+#menu > div {
+  width: 100%;
+}
+
+#name {
+  font-size: 130%;
+  color: #0e0e0ec9;
+}
+
+#foodMenu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 110%;
+  background-color: #41414180;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 2% 0 3% 0;
+  padding: 1%;
+}
+
+#foodMenu > div > button {
+  font-size: 80%;
+  color: white;
+  background-color: #0f0f12a8;
+  border: none;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+#foodMenu > div > button:hover {
+  background-color: #0e0e10;
+}
+
+nav#navFood a {
+  font-size: 125%;
+  text-decoration: none;
+  color: white;
+}
+
+nav#navFood a:hover {
+  color: #c1c1c1;
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) {
+  #navFood {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  #foodMenu {
+    width: 100%;
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 414px) and (-webkit-device-pixel-ratio: 3) {
+  #navFood {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  #foodMenu {
+    width: 100%;
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #navFood {
+    width: 100%;
+    font-size: 70%;
+  }
+
+  #foodMenu {
+    width: 100%;
+    font-size: 70%;
+  }
+}

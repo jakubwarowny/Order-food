@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/basket.css" />
+    <title>Zamów jedzenie</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <nav id="navFood">
+        <div>
+          <p><a href="#section1">Tortilla</a></p>
+        </div>
+        <div>
+          <a href="#section2">Sałatki</a>
+        </div>
+        <div>
+          <a href="#section3">Sosy</a>
+        </div>
+        <div>
+          <a href="#section4">Napoje</a>
+        </div>
+        <div>
+          <a class="basketBtn">Koszyk</a>
+        </div>
+      </nav>
+      <div id="container2">
+        <div id="menu">
+          <div id="section1" class="pizzaDiv"></div>
+          <div id="section2" class="saladDiv"></div>
+          <div id="section3" class="sauceDiv"></div>
+          <div id="section4" class="drinkDiv"></div>
+        </div>
+        <div id="basketDiv">
+          <div class="basketDiv"></div>
+          <div id="result" class="totalPaymentDiv"></div>
+          <div class="orderDetails" id="orderDetails">
+            <p>Dane do zamówienia:</p>
+            <input type="text" placeholder="Podaj imię" />
+            <input type="text" placeholder="Podaj nazwisko" />
+            <input type="text" placeholder="Podaj pełen adres zamieszkania" />
+            <input type="number" placeholder="Podaj numer telefonu" />
+            <button class="btnCompleteOrder">Zamów</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="basket.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
